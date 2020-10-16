@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E9044993-243A-4054-B74C-4EC841741A26}"
+	ProjectSection(SolutionItems) = preProject
+		src\ControlLocalizer.cs = src\ControlLocalizer.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNet", "dotNet", "{24DFDED8-04CE-4C6D-9D9D-6AC54FA373C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Browser.DevExpressBrowser.v18.1(dotNet)", "dotNet\DevExpress.v18.1\Atomus.Control.Browser.DevExpressBrowser.v18.1(dotNet).csproj", "{3A0FABDA-88BF-45FF-A941-F7793E02C79E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{322CEE93-1736-4DDF-B2BA-48CA74F5A34D}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\DevExpressBrowserController.cs = src\Controllers\DevExpressBrowserController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{C0FF1EDB-A6E8-4E67-83C9-4A80423D62A2}"
+	ProjectSection(SolutionItems) = preProject
+		src\Models\DevExpressSearchModel.cs = src\Models\DevExpressSearchModel.cs
+		src\Models\DevExpressSearchParentMenuModel.cs = src\Models\DevExpressSearchParentMenuModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{3DFE1421-1DEB-4ED8-BBC2-A85DB67F077C}"
+	ProjectSection(SolutionItems) = preProject
+		src\Views\DevExpressBrowser.cs = src\Views\DevExpressBrowser.cs
+		src\Views\DevExpressBrowser.Designer.cs = src\Views\DevExpressBrowser.Designer.cs
+		src\Views\DevExpressBrowser.resx = src\Views\DevExpressBrowser.resx
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Browser.DevExpressBrowser.v20.1(dotNet)", "dotNet\DevExpress.v20.1\Atomus.Control.Browser.DevExpressBrowser.v20.1(dotNet).csproj", "{278F0174-77AE-455C-A513-49E17973C62D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A0FABDA-88BF-45FF-A941-F7793E02C79E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0FABDA-88BF-45FF-A941-F7793E02C79E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0FABDA-88BF-45FF-A941-F7793E02C79E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0FABDA-88BF-45FF-A941-F7793E02C79E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{278F0174-77AE-455C-A513-49E17973C62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{278F0174-77AE-455C-A513-49E17973C62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{278F0174-77AE-455C-A513-49E17973C62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{278F0174-77AE-455C-A513-49E17973C62D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A0FABDA-88BF-45FF-A941-F7793E02C79E} = {24DFDED8-04CE-4C6D-9D9D-6AC54FA373C5}
+		{322CEE93-1736-4DDF-B2BA-48CA74F5A34D} = {E9044993-243A-4054-B74C-4EC841741A26}
+		{C0FF1EDB-A6E8-4E67-83C9-4A80423D62A2} = {E9044993-243A-4054-B74C-4EC841741A26}
+		{3DFE1421-1DEB-4ED8-BBC2-A85DB67F077C} = {E9044993-243A-4054-B74C-4EC841741A26}
+		{278F0174-77AE-455C-A513-49E17973C62D} = {24DFDED8-04CE-4C6D-9D9D-6AC54FA373C5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {29E57379-A19C-43AE-B950-BE3E4BEBDB81}
+	EndGlobalSection
+EndGlobal
